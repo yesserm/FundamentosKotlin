@@ -13,19 +13,19 @@ fun main(args: Array<String>) {
     println(args[0])
 
     //podemos leer datos
-    println("Enter Two number")
+    println("Ingrese dos numeros")
     var (a, b) = readLine()!!.split(' ') // !! this operator use for NPE(NullPointerException).
 
-    println("Max number is : ${maxNum(a.toInt(), b.toInt())}")
+    println("El numero maximo : ${maxNum(a.toInt(), b.toInt())}")
 }
 
 fun maxNum(a: Int, b: Int): Int {
 
     var max = if (a > b) {
-        println("The value of a is $a");
+        println("El valor de a es $a");
         a
     } else {
-        println("The value of b is $b")
+        println("El valor de b es $b")
         b
     }
 
