@@ -1,4 +1,5 @@
 # Fundamentos de Kotlin
+![Imagen de android](https://developer.android.com/images/kotlin/android-plus-kotlin.png)
 Bienvenido a un repositorio con los códigos básicos del lenguaje de programación Kotlin, es recomendable que sean compilados de forma externa al IDE de android.
 
 ### Razones para elegir Kotlin
