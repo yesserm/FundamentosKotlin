@@ -22,6 +22,6 @@ fun main() {
    var manzana = Frutas("Rojo","Dulce",4)
    var aguacate = FrutasConGrasa(10)
    aguacate.color = "verde"
-   println(aguacate.color)  
+   println(aguacate.color)    
    println(manzana.color)
 }
